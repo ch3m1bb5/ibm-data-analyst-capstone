@@ -1,0 +1,20 @@
+# Segredos — NUNCA publicar
+.env
+.env.*
+!.env.example
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+venv/
+.venv/
+node_modules/
+dist/
+
+# Logs, dados gerados e pacotes
+*.log
+logs/
+data/
+alert_log.csv
+*.zip
